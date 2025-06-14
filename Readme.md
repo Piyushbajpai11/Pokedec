@@ -43,8 +43,9 @@ A fun and interactive web application that displays Pokémon cards based on user
     start index.html
     ```
 
-# 📂Project Structure
+## 📂Project Structure
 
+    ```bash
 pokemon-card-app/
 │
 ├── index.html        # Main HTML structure
@@ -52,14 +53,15 @@ pokemon-card-app/
 ├── index.js          # Fetch, render, and interactions
 ├── screenshot.png    # (Optional) Screenshot for README
 └── README.md         # You're reading it!
+    ```
 
-# 💡 Future Enhancements
+## 💡 Future Enhancements
 
 - Add more type filters
 - View full favorite list on a separate page
 - Load Pokémon by generation or region
 
-# License 
+## License 
 
 This project is open-source and free to use.
 MIT License © 2025
