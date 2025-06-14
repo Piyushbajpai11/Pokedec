@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pokemon Cards</h1>
+
+    <div class="form-group">
+        <label for="num">Number of Cards</label>
+        <input type="number" id="num" min="1" max="10">
+    </div>
+
+    <div class="form-group">
+        <label for="category">Category:</label>
+        <select id="category">
+            <option value="all">All</option>
+            <option value="fire">Fire</option>
+            <option value="water">Water</option>
+            <option value="grass">Grass</option>
+            <option value="electric">Electric</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <button id="loadPokemonBtn">Get Pokemon</button>
+        <button id="clearBtn">Clear</button>
+    </div>
+
+    <div id="loading" style="display: none;">Loading Pokemon...</div>
+
+    <div class="cards-container" id="cards"></div>
+    <script src="index.js"></script>
+</body>
+</html>
